@@ -5,6 +5,7 @@
 const fs = require('fs');
 fs.writeFileSync("hello.txt", "code with Pranshu");
 
+
 //or
 
 const fs = require('fs').writeFileSync;

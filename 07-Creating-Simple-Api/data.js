@@ -4,4 +4,5 @@ const data = [{name: 'Pranshu Singh Bisht', email: 'pranshu@gmail.com'},
 {name: 'Kavita Bora', email: 'kavita@gmail.com'},
 {name: 'Kunal Pokhariya', email: 'kunal@gmail.com'}
 ]
+
 module.exports=data

@@ -12,6 +12,7 @@ http.createServer((req, res)=> {
 
 
     
+    
     res.write(JSON.stringify(data))
     //this write() is a method in node js that is used to write data to the HTTP response body.
 res.end();
