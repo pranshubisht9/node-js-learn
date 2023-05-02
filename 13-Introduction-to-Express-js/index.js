@@ -12,12 +12,23 @@ const app = express();
 
 
 // this get method provides route
-app.get()
+app.get('', (req, res) => {
+    res.send('Hello, This is home page');
+});
+
+
+app.get('/about', (req, res) => {
+    res.send('Hello, This is about page');
+});
+
+
+app.get('/help', (req, res) => {
+    res.send('Hello, This is help page');
+});
 
 
 
-
-
+app.listen(5000)
 
 
 
